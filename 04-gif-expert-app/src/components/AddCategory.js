@@ -6,7 +6,7 @@ export const AddCategory = ({ setCategories }) => {
     const [inputValue, setInputValue] = useState('');
 
     const handleInputChande = (e) => {
-        console.log(e.target.value);
+        //console.log(e.target.value);
         setInputValue(e.target.value);
     };
 
@@ -16,6 +16,7 @@ export const AddCategory = ({ setCategories }) => {
         if (inputValue.trim().length > 2) {
             setCategories((cat) => [inputValue, ...cat]);
             setInputValue('');
+            //console.log('--->', inputValue);
         }
     };
 
