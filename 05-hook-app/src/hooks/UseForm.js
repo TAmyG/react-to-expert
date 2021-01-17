@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export const UseForm = (initialState = {}) => {
+export const useForm = (initialState = {}) => {
     const [values, setValues] = useState(initialState);
     // Hook modified to reset input values
     const reset = () => {

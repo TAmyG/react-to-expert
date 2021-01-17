@@ -1,9 +1,9 @@
 import React from 'react';
-import { UseForm } from '../../hooks/UseForm';
+import { useForm } from '../../hooks/useForm';
 
 export const TodoAdd = ({ handleAddTodo }) => {
     // Destructure state to get only description
-    const [{ description }, handleInputChange, reset] = UseForm({
+    const [{ description }, handleInputChange, reset] = useForm({
         description: '',
     });
 
