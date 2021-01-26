@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AuthContext } from '../../auth/AuthContext';
+import { authReducer } from '../../auth/authReducer';
+import { types } from '../../types/types';
 
 export const LoginScreen = ({ history }) => {
+    const { dispatch } = useContext(AuthContext);
+
     const handleLogin = () => {
+        const lastPath = localStorage.getItem('lastPath') || '/';
+
         //history.push('/dc');
-        history.replace('/dc');
+        dispatch({
+            type: types.login,
+            payload: {
+                name: 'tamy',
+            },
+        });
+        history.replace(lastPath);
     };
     return (
         <div className="container mt-5">
