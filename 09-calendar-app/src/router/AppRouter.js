@@ -7,12 +7,10 @@ import {
 } from 'react-router-dom';
 import { LoginScreen } from '../components/auth/LoginScreen';
 import { CalendarScreen } from '../components/calendar/CalendarScreen';
-{
-    /**
-     * exact /login -LoginScreen
-     * exact / -CalendarScreen
-     */
-}
+/**
+ * exact /login -LoginScreen
+ * exact / -CalendarScreen
+ */
 export const AppRouter = () => {
     return (
         <Router>

@@ -73,3 +73,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 https://getbootstrap.com/docs/4.5/getting-started/introduction/
 https://reactrouter.com/web/guides/quick-start
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css
+https://gist.github.com/Klerith/74a0c4426599f3bc25b7f4e8d95b6a7f
+https://cdnjs.com/libraries/font-awesome
+https://www.npmjs.com/package/react-big-calendar
+https://gist.github.com/Klerith/1658fc368898dd673fc5a9a01ccb12ff
+https://www.npmjs.com/package/react-modal
+https://gist.github.com/Klerith/5f490092ce9bd5775cb1d91162be0cea
