@@ -82,3 +82,6 @@ https://www.npmjs.com/package/react-modal
 https://gist.github.com/Klerith/5f490092ce9bd5775cb1d91162be0cea
 https://gist.github.com/Klerith/8c9b2178830045b3f5126422bd0223e1
 https://www.npmjs.com/package/react-datetime-picker
+https://react-redux.js.org/
+https://es.redux.js.org/
+https://www.npmjs.com/package/redux-thunk

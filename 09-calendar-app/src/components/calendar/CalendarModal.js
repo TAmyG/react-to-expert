@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import { useState } from 'react';
 import Modal from 'react-modal';
 import DateTimePicker from 'react-datetime-picker';
@@ -22,6 +23,7 @@ const now = moment().minutes(0).seconds(0).add(1, 'hours');
 const nowplus1 = now.clone().add(1, 'hours');
 
 export const CalendarModal = () => {
+    const state = useSelector((state) => state);
     const [startDate, setStartDate] = useState(now.toDate());
     const [endDate, setEndDate] = useState(nowplus1.toDate());
     const [titleValid, setTitleValid] = useState(true);
