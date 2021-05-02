@@ -80,3 +80,5 @@ https://www.npmjs.com/package/react-big-calendar
 https://gist.github.com/Klerith/1658fc368898dd673fc5a9a01ccb12ff
 https://www.npmjs.com/package/react-modal
 https://gist.github.com/Klerith/5f490092ce9bd5775cb1d91162be0cea
+https://gist.github.com/Klerith/8c9b2178830045b3f5126422bd0223e1
+https://www.npmjs.com/package/react-datetime-picker
