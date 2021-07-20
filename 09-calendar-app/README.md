@@ -85,3 +85,6 @@ https://www.npmjs.com/package/react-datetime-picker
 https://react-redux.js.org/
 https://es.redux.js.org/
 https://www.npmjs.com/package/redux-thunk
+https://enzymejs.github.io/enzyme/
+https://www.npmjs.com/package/enzyme-to-json
+https://github.com/reduxjs/redux-mock-store
