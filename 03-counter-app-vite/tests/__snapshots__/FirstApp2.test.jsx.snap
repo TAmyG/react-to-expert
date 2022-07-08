@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas en <FirstApp/> debe hacer match en el snapshot 1`] = `
+exports[`Pruebas en <FirstApp/> #2 debe hacer match en el snapshot 1`] = `
 <div>
   <h1
     data-testid="test-title"
