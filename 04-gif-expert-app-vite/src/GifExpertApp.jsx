@@ -4,8 +4,7 @@
  */
 
 import { useState } from "react";
-import { AddCategory } from "../components/AddCategory";
-import { GifGrid } from "../components/GifGrid";
+import { AddCategory, GifGrid } from "../components";
 /**
  * 
  * 1. crear state
@@ -16,6 +15,7 @@ import { GifGrid } from "../components/GifGrid";
  * 6. Tarea implmentar con onAddCategory mejor solucion ya que el componente debe emitir el valor
  * 7. Evitar duplicados
  * 8. Nuevo Componente GifGrid
+ * 9. Archivo index.js
  */
 export const GifExpertApp = () => {
     //1.
