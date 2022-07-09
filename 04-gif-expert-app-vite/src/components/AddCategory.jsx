@@ -38,7 +38,7 @@ export const AddCategory = ({setCategories,onNewCategory}) => {
 
 
     return (
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} aria-label="form">
             <input
                 type="text"
                 placeholder="Buscar Gifs"
@@ -52,5 +52,5 @@ export const AddCategory = ({setCategories,onNewCategory}) => {
 
 
 AddCategory.propTypes = {
-    //setCategories: PropTypes.func.isRequired
+    onNewCategory: PropTypes.func.isRequired
 }
