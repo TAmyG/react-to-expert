@@ -4,7 +4,7 @@
  */
 
 import { useState } from "react";
-import { AddCategory, GifGrid } from "../components";
+import { AddCategory, GifGrid } from "./components";
 /**
  * 
  * 1. crear state
