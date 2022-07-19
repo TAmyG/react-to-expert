@@ -5,6 +5,8 @@ import {  Route, Routes } from "react-router-dom";
 
 import { HeroesRoutes } from '../heroes';
 import { LoginPage } from "../auth/";
+import { PrivateRoute } from "./PrivateRoute";
+import { PublicRoute } from "./PublicRoute";
 
 // import { Navbar } from "../ui";
 
@@ -14,15 +16,20 @@ import { LoginPage } from "../auth/";
  * 3. Archivo de barril para auth
  * 4. Crear HeroesRoutes
  * 5. Crear search y hero pages
- * 6. 
+ * 6. Implementar PrivateRoute
+ * 7.  Tarea implementar PublicRoute
  */
 export const AppRouter = () => {
     return (
         <>
             {/* <Navbar /> */}
             <Routes>
-                <Route path="login" element={<LoginPage />} />
-                <Route path="/*" element={<HeroesRoutes />} />
+                <Route path="/login" element={<PublicRoute><LoginPage /></PublicRoute>}/>
+
+                {/* <Route path="login" element={<LoginPage />} /> */}
+
+                <Route path="/*" element={<PrivateRoute><HeroesRoutes /></PrivateRoute>}/>
+                {/* // <Route path="/*" element={<HeroesRoutes />} /> */}
 
             </Routes>
         </>
